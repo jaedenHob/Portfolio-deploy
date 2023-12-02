@@ -13,7 +13,7 @@ function Contact() {
         e.preventDefault();
 
         try {
-            const response = await fetch('https://contacts-requests.onrender.com', {
+            const response = await fetch('https://contacts-requests.onrender.com/contact', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
