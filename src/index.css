@@ -1,3 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .animation-delay-200 {
+        animation-delay: 0.2s;
+    }
+
+    .animation-delay-400 {
+        animation-delay: 0.4s;
+    }
+}
+
+.circle {
+    @apply w-4 h-4 my-12 mx-1 bg-black rounded-full;
+}
+
+@keyframes colorChange {
+    0% {
+        background-color: black;
+    }
+
+    50% {
+        background-color: white;
+    }
+
+    100% {
+        background-color: black;
+    }
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-1rem);
+    }
+}
+
+@layer utilities {
+    .animate-bounce-color-change {
+        animation: bounce 1s infinite alternate, colorChange 2s infinite;
+    }
+}
