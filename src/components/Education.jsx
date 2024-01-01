@@ -1,7 +1,7 @@
 import React from 'react'
 import Pegasus from '../images/UcfPegasusCropped.png'
 import EducationItem from './EducationItem'
-import Resume from '/resume.pdf'
+import Resume from '/JaedenHobstable.docx - Google Docs.pdf'
 
 const data = [
   {
