@@ -29,20 +29,21 @@ const Projects = () => {
                          buttonInfo='click here'
                          />
 
-            <ProjectItem img={Dragon} title='Reflective objects' 
-                         site='https://observablehq.com/d/9b24a78f919a6b1a'
-                         paragraph="Using the microfacet BRDF model which is a function that calcuates the scattering characteristic 
-                         of the surface of an object's material. I can render objects and create reflections that follows how light 
-                         reflects on a certain metal type and roughness of the material."
+            <ProjectItem img={Dragon} title='Collection of 3D graphics projects' 
+                         site='https://observablehq.com/collection/@jaedenhuxtable/organize-assignments'
+                         paragraph="During my intro to computer graphics class I worked on assignments and projects mainly in javascript
+                         and glsl coding languages. I learned topics and techniques like object rendering, matrix transformations,
+                         camera calculations, lighting and calulating how objects look based on material, mapping textures to objects,
+                         and real time rendering of accuarte shadows through shadow mapping."
                          
                          buttonInfo='Click Here'
                          />
 
             <ProjectItem img={Boggle} 
                          title='Boggle' 
-                         buttonInfo='In a class focused with exposing me to different markup and scripting languages.
+                         paragraph='In a class focused with exposing me to different markup and scripting languages.
                          Was tasked to design a boggle site but each time with different languages. 
-                         I completed it in JavaScript, PHP, and ReactJS'
+                         I completed it in JavaScript with jquery, PHP, and ReactJS'
                         />
           </div>
           

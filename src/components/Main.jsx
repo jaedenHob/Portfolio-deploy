@@ -1,6 +1,8 @@
 import React from 'react'
 import {FaLinkedinIn} from 'react-icons/fa6'
 import {SiIndeed} from 'react-icons/si'
+import { FaGithub } from "react-icons/fa";
+
 import Selfie from '../images/selfie(1).png'
 
 
@@ -28,12 +30,23 @@ const Main = () => {
             </h2>
 
             <div className='flex justify-between pt-6 max-w-[50px] w-full'>
-              <a href="https://www.linkedin.com/in/jaeden-hobstable/" target="_blank" rel="noopener noreferrer">
-                <FaLinkedinIn className='cursor-pointer' size={20} color='white' />
-              </a>
-              <a href="https://profile.indeed.com/p/jaedenh-2qt0qcr" target="_blank" rel="noopener noreferrer">
-                <SiIndeed className='cursor-pointer' size={20} color='white' />
-              </a>
+              <div className='px-2'>
+                <a href="https://www.linkedin.com/in/jaeden-hobstable/" target="_blank" rel="noopener noreferrer">
+                  <FaLinkedinIn className='cursor-pointer' size={20} color='white' />
+                </a>
+              </div>
+
+              <div className='px-2'>
+                <a href="https://profile.indeed.com/p/jaedenh-2qt0qcr" target="_blank" rel="noopener noreferrer">
+                  <SiIndeed className='cursor-pointer' size={20} color='white' />
+                </a>
+              </div>
+
+              <div className='px-2'>
+                <a href="https://github.com/jaedenHob" target="_blank" rel="noopener noreferrer">
+                  <FaGithub className='cursor-pointer' size={20} color='white' />
+                </a>
+              </div>
             </div>
 
           </div>
