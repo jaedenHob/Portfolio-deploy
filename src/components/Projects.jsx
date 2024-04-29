@@ -4,6 +4,7 @@ import Boggle from '../images/Boggle.png'
 import Dragon from '../images/dragonPBR.png'
 import CatBurglar from '../images/catStartScreen.png'
 import Mangrove from '../images/Mangrove.png'
+import FinalSphere from '../images/SphereRender.png'
 
 var splash = 'https://images.unsplash.com/photo-1633998860517-29b9ada37476?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D';
 const Projects = () => {
@@ -36,6 +37,16 @@ const Projects = () => {
                          camera calculations, lighting and calulating how objects look based on material, mapping textures to objects,
                          and real time rendering of accuarte shadows through shadow mapping."
                          
+                         buttonInfo='Click Here'
+                         />
+
+            <ProjectItem img={FinalSphere} title='Webgl Ray Tracer'
+                         site='https://ray-trace.onrender.com'
+                         paragraph="I dicided to follow the ray tracing in one weekend guide, but with a twist. I opted to attempt it in Webgl
+                         with reactjs vs. the original implementation of using C++. I wanted to complete a raytracer in webgl cause my idea was
+                         that by using Webgl which runs on a computer gpu would allow for faster rendering compared to being on the cpu and can 
+                         allow for possible scene manipulation in real time."
+
                          buttonInfo='Click Here'
                          />
 
