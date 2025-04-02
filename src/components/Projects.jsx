@@ -49,7 +49,7 @@ const Projects = () => {
         <ProjectItem
           img={FinalSphere}
           title="Webgl Ray Tracer"
-          site="https://ray-https://raytracingtnw.onrender.com.onrender.com"
+          site="https://raytracingtnw.onrender.com"
           paragraph="I dicided to follow the ray tracing in one weekend guide, but with a twist. I opted to attempt it in Webgl
                          with reactjs vs. the original implementation of using C++. I wanted to complete a raytracer in webgl cause my idea was
                          that by using Webgl which runs on a computer gpu would allow for faster rendering compared to being on the cpu and can 
